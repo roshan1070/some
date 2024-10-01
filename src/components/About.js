@@ -3,43 +3,15 @@ import React from 'react'
 export default function About() {
   return (
     <>
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                Accordion Item #1
-            </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-            <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Accordion Item #2
-            </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Accordion Item #3
-            </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-            </div>
-        </div>
+    <div className="container">
+        <h2>About</h2>
+        <p>TextUtils is a versatile text manipulation tool designed to simplify various text-related tasks. With its user-friendly interface, the app provides several essential utilities to enhance your text-editing experience. Some of the key features include:</p>
+        <ul>
+            <li><strong>Word and Character Count</strong>: TextUtils makes it easy to keep track of the number of words and characters in any given text, which is especially useful for writing tasks with specific length requirements.</li>
+            <li><strong>Case Conversion</strong>: You can quickly transform your text between uppercase and lowercase with just one click. Whether you need to shout something in all caps or refine it to lowercase, TextUtils has you covered.</li>
+            <li><strong>Dark Mode</strong>: To make the app more comfortable for extended use, especially in low-light environments, TextUtils offers a sleek dark mode, reducing eye strain and improving readability.</li>
+        </ul>
+        <p>Built with React, TextUtils is fast, reliable, and works across all platforms, making it an ideal companion for all your text-related needs.</p>
     </div>
     </>
   )
